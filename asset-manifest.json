@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/blockchain-voting-system/static/css/main.9b4d651f.css",
+    "main.js": "/blockchain-voting-system/static/js/main.033feb9a.js",
+    "static/js/787.0188b526.chunk.js": "/blockchain-voting-system/static/js/787.0188b526.chunk.js",
+    "static/media/color-sharp.png": "/blockchain-voting-system/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/blockchain-voting-system/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner-bg.png": "/blockchain-voting-system/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/blockchain-voting-system/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/blockchain-voting-system/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/blockchain-voting-system/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/blockchain-voting-system/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/blockchain-voting-system/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/blockchain.png": "/blockchain-voting-system/static/media/blockchain.93c115b894d2ffe472bc.png",
+    "static/media/revicons.eot": "/blockchain-voting-system/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/blockchain-voting-system/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/blockchain-voting-system/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/blockchain-voting-system/index.html",
+    "main.9b4d651f.css.map": "/blockchain-voting-system/static/css/main.9b4d651f.css.map",
+    "main.033feb9a.js.map": "/blockchain-voting-system/static/js/main.033feb9a.js.map",
+    "787.0188b526.chunk.js.map": "/blockchain-voting-system/static/js/787.0188b526.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b4d651f.css",
+    "static/js/main.033feb9a.js"
+  ]
+}
