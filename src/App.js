@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Blockchain />
       <VotingSystem />
+      <Blockchain />
       <Footer />
     </div>
   );
