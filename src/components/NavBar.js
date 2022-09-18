@@ -32,7 +32,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/blockchain-voting-system">
+          <Navbar.Brand href="/Home">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -40,9 +40,9 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#Home" className={activeLink === 'Home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Home')}>Home</Nav.Link>
-              <Nav.Link href="#VotingSystem" className={activeLink === 'VotingSystem' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('VotingSystem')}>Voting System</Nav.Link>
-              <Nav.Link href="#Blockchain" className={activeLink === 'Blockchain' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Blockchain')}>Blockchain</Nav.Link>
+              <Nav.Link href="/Home" className={activeLink === 'Home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Home')}>Home</Nav.Link>
+              <Nav.Link href="/VotingSystem" className={activeLink === 'VotingSystem' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('VotingSystem')}>Voting System</Nav.Link>
+              <Nav.Link href="/Blockchain" className={activeLink === 'Blockchain' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Blockchain')}>Blockchain</Nav.Link>
             </Nav>
             <span className="navbar-text">        
             </span>
