@@ -41,6 +41,7 @@ export const Story = () => {
                     <Tab.Pane eventKey="third">
                       <h2>BlockVote</h2>
                       <br></br>
+                      <br></br>
                       <img className="qrcode" src={qrcode} alt="BlockVote"></img>
                     </Tab.Pane>
                   </Tab.Content>
