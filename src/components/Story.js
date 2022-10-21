@@ -20,28 +20,22 @@ export const Story = () => {
                 <Tab.Container id="Story-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Current Blockchain Model</Nav.Link>
+                      <Nav.Link eventKey="first">Manual Voting System</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Benefits of Blockchain</Nav.Link>
+                      <Nav.Link eventKey="second">Blockchain Voting System</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Summary of Blockchain</Nav.Link>
+                      <Nav.Link eventKey="third">BlockVote</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <h2>Manual Voting System</h2>
-                      <br></br>
                       <img className="story" src={story1} alt="Manual Voting System"></img>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <h2>Blockchain Voting System</h2>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <h2>BlockVote</h2>
-                      <br></br>
-                      <br></br>
                       <img className="qrcode" src={qrcode} alt="BlockVote"></img>
                     </Tab.Pane>
                   </Tab.Content>
