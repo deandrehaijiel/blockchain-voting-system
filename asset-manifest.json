@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blockchain-voting-system/static/css/main.c2d8b3d3.css",
-    "main.js": "/blockchain-voting-system/static/js/main.fdef23d1.js",
+    "main.js": "/blockchain-voting-system/static/js/main.2282231f.js",
     "static/js/787.0188b526.chunk.js": "/blockchain-voting-system/static/js/787.0188b526.chunk.js",
     "static/media/story1.png": "/blockchain-voting-system/static/media/story1.eeefd2ed8ee84e1358fa.png",
     "static/media/color-sharp.png": "/blockchain-voting-system/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -19,11 +19,11 @@
     "static/media/revicons.woff": "/blockchain-voting-system/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/blockchain-voting-system/index.html",
     "main.c2d8b3d3.css.map": "/blockchain-voting-system/static/css/main.c2d8b3d3.css.map",
-    "main.fdef23d1.js.map": "/blockchain-voting-system/static/js/main.fdef23d1.js.map",
+    "main.2282231f.js.map": "/blockchain-voting-system/static/js/main.2282231f.js.map",
     "787.0188b526.chunk.js.map": "/blockchain-voting-system/static/js/787.0188b526.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2d8b3d3.css",
-    "static/js/main.fdef23d1.js"
+    "static/js/main.2282231f.js"
   ]
 }
