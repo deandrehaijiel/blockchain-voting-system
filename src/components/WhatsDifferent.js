@@ -5,10 +5,10 @@ import qrcode from "../assets/img/blockvote-qrcode.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Story = () => {
+export const WhatsDifferent = () => {
 
   return (
-    <section className="Story" id="Story">
+    <section className="WhatsDifferent" id="WhatsDifferent">
       <Container>
         <Row>
           <Col size={12}>
@@ -17,7 +17,7 @@ export const Story = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Voting System</h2>
                 <p>Blockchain technology came into the ground to offers decentralized nodes for electronic voting and is used to produce electronic voting systems mainly because of their end-to-end verification advantages.</p>
-                <Tab.Container id="Story-tabs" defaultActiveKey="first">
+                <Tab.Container id="WhatsDifferent-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Manual Voting System</Nav.Link>

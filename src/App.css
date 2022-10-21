@@ -304,18 +304,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Story Css ************/
-.Story {
+/************ WhatsDifferent Css ************/
+.WhatsDifferent {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
-.Story h2 {
+.WhatsDifferent h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.Story p {
+.WhatsDifferent p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -324,17 +324,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-.Story .nav.nav-pills {
+.WhatsDifferent .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.Story .nav.nav-pills .nav-item {
+.WhatsDifferent .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.Story .nav.nav-pills .nav-link {
+.WhatsDifferent .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -348,7 +348,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.Story .nav.nav-pills .nav-link::before {
+.WhatsDifferent .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -359,21 +359,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.Story .nav.nav-pills .nav-link.active::before {
+.WhatsDifferent .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.Story .nav.nav-pills .nav-link.active {
+.WhatsDifferent .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.nav-link#Story-tabs-tab-first {
+.nav-link#WhatsDifferent-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
-.nav-link#Story-tabs-tab-second {
+.nav-link#WhatsDifferent-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-.nav-link#Story-tabs-tab-third {
+.nav-link#WhatsDifferent-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }

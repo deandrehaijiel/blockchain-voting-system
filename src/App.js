@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
-import { Story } from "./components/Story";
+import { WhatsDifferent } from "./components/WhatsDifferent";
 import { Blockchain } from "./components/Blockchain";
 import { VotingSystem } from "./components/VotingSystem";
 import { Footer } from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Story />
+      <WhatsDifferent />
       <VotingSystem />
       <Blockchain />
       <Footer />
