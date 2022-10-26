@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import story1 from "../assets/img/story1.png";
+import story2 from "../assets/img/story2.png";
 import qrcode from "../assets/img/blockvote-qrcode.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -34,6 +35,7 @@ export const WhatsDifferent = () => {
                       <img className="story" src={story1} alt="Manual Voting System"></img>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                    <img className="story" src={story2} alt="Blockchain Voting System"></img>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <img className="qrcode" src={qrcode} alt="BlockVote"></img>
