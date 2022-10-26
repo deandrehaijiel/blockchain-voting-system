@@ -54,7 +54,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to the Future of Blockchain</span>
+                <span className="tagline">Welcome to the Future</span>
                 <h1>{`Blockchain Voting`}<br></br><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Trusted", "Secure", "Transparent" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Blockchain implements cryptography in a distinctive method within the software. To ensure that votes are accurately recorded, it provides a tamper-proof record that can be easily examined.</p>
               </div>}
