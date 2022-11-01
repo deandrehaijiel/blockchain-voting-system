@@ -38,7 +38,9 @@ export const WhatsDifferent = () => {
                     <img className="story" src={story2} alt="Blockchain Voting System"></img>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <img className="qrcode" src={qrcode} alt="BlockVote"></img>
+                      <a href="https://github.com/deandrehaijiel/blockvote" target="_blank"><img className="qrcode" src={qrcode} alt="BlockVote"></img></a>
+                      <br></br>
+                      <h2>BlockVote</h2>              
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
