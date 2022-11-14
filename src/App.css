@@ -471,18 +471,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ VotingSystem Css ************/
-.VotingSystem {
+/************ CurrentModel Css ************/
+.CurrentModel {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
-.VotingSystem h2 {
+.CurrentModel h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.VotingSystem p {
+.CurrentModel p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -491,17 +491,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-.VotingSystem .nav.nav-pills {
+.CurrentModel .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.VotingSystem .nav.nav-pills .nav-item {
+.CurrentModel .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.VotingSystem .nav.nav-pills .nav-link {
+.CurrentModel .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -515,7 +515,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.VotingSystem .nav.nav-pills .nav-link::before {
+.CurrentModel .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -526,21 +526,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.VotingSystem .nav.nav-pills .nav-link.active::before {
+.CurrentModel .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.VotingSystem .nav.nav-pills .nav-link.active {
+.CurrentModel .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.nav-link#VotingSystem-tabs-tab-first {
+.nav-link#CurrentModel-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
-.nav-link#VotingSystem-tabs-tab-second {
+.nav-link#CurrentModel-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-.nav-link#VotingSystem-tabs-tab-third {
+.nav-link#CurrentModel-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
@@ -597,7 +597,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ VotingSystem Css ************/
+/************ CurrentModel Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;

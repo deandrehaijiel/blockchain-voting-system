@@ -4,7 +4,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { WhatsDifferent } from "./components/WhatsDifferent";
 import { Blockchain } from "./components/Blockchain";
-import { VotingSystem } from "./components/VotingSystem";
+import { CurrentModel } from "./components/CurrentModel";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Banner />
       <Blockchain />
-      <VotingSystem />
+      <CurrentModel />
       <WhatsDifferent />
       <Footer />
     </div>

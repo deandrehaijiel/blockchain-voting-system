@@ -3,17 +3,17 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const VotingSystem = () => {
+export const CurrentModel = () => {
 
   return (
-    <section className="VotingSystem" id="VotingSystem">
+    <section className="CurrentModel" id="CurrentModel">
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <Tab.Container id="VotingSystem-tabs" defaultActiveKey="first">
+                <Tab.Container id="CurrentModel-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Current Blockchain Model</Nav.Link>
