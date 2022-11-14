@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <WhatsDifferent />
-      <VotingSystem />
       <Blockchain />
+      <VotingSystem />
+      <WhatsDifferent />
       <Footer />
     </div>
   );
