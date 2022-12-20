@@ -49,7 +49,7 @@ export const Blockchain = () => {
                         <p>One area where blockchain has not been widely adopted would be voting, which has the potential to eliminate election fraud and make the voting process a fair one. Voting on the blockchain would be a fair and transparent process as it makes it impossible for third parties to tamper with the votes. The outcome of the elections would also be accurate and instant using blockchain thereby eliminating human errors and manpower for counting. All in all, it will expedite the process of voting.</p>
                         <h2>Aim of Project</h2>
                         <br></br>
-                        <p>Our aim for this project would be to create a blockchain voting system that can be implemented for modern-day voting and we plan on using python3 as our main coding language.</p>
+                        <p>Our aim for this project would be to create a blockchain voting system that can be implemented for modern-day voting and we plan on using Javascript as our main coding language.</p>
                     </div>
                 </div>
             </div>
